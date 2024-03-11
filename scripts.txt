@@ -1,0 +1,6 @@
+
+pull latest mongo version for docker
+docker pull mongo
+
+run app on docker container on mynetwork
+docker run -d --name myfastapi --network mynetwork -p 80:80 fastapi-app 
